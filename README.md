@@ -1,2 +1,1 @@
-# ouse_barbearia
- Projeto criado para uma barbearia da cidade.
+<h1>OUSE BARBEARIA</h1>

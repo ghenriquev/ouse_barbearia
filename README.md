@@ -1,18 +1,18 @@
-<h1 align="center">
+<h1>
     <a href="https://ghenriquev.github.io/ouse_barbearia">
       OUSE BARBEARIA
     </a>
 </h1>
 
-<p align="center">🚀 Site estático realizado para uma barbearia da minha cidade.</p>
+<p>🚀 Site estático realizado para uma barbearia da minha cidade.</p>
 
-<h2 align="center">Objetivo</h2>
+<h2>Objetivo</h2>
 
-<p align="center">Exercitar conhecimentos em HTML, CSS e JavaScript, buscando um design bonito, limpo, minimalista e fluido.</p>
+<p>Exercitar conhecimentos em HTML, CSS e JavaScript, buscando um design bonito, limpo, minimalista e fluido.</p>
 
-<h2 align="center">Bugs e erros</h2>
+<h2>Bugs e erros</h2>
 
-<ul align="center">
+<ul>
   <li>Problemas na responsividade</li>
 </ul>
 

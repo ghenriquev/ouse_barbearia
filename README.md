@@ -9,3 +9,6 @@
 <h2 align="center">Objetivo</h2>
 
 <p align="center">Exercitar conhecimentos em HTML, CSS e JavaScript, buscando um design bonito, limpo, minimalista e fluido.</p>
+
+<h4 align="center">🚧 Projeto em andamento...</h4>
+

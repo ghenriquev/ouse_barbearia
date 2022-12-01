@@ -144,7 +144,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     align-items: center;
     background-color: #000000;
     justify-content: space-around;
@@ -160,7 +160,7 @@ button:hover {
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     justify-items: center;
 }
 
@@ -232,7 +232,6 @@ footer {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-
 }
 
 .redes img {
@@ -292,7 +291,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 1000px){
+    header {
+        background-position: right;
+    }
+}
+
+@media screen and (max-width: 756px) {
     html {
         font-size: 14px;
     }
@@ -300,6 +305,13 @@ footer {
     .card {
         text-align: center;
         font-size: 0.7rem;
+    }
+
+    .cards-grid {
+       
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-items: center;
+        row-gap: 4rem;
     }
 
     header {
@@ -316,4 +328,44 @@ footer {
     .description {
         margin: 0;
     }
+}
+
+@media screen and (max-width: 530px) {
+
+    header {
+        background-image: url(../assets/smoke.png);
+        
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        padding: 2rem;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .mapa {
+        display: block;
+        width: 100vw;
+    }
+
+    .redes {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+
+    .cards-grid {
+       
+        grid-template-columns: minmax(250px, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    
 }

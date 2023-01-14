@@ -13,7 +13,7 @@
 <h2>Bugs e erros</h2>
 
 <ul>
-  <li>Problemas na responsividade</li>
+  
 </ul>
 
 <h4 align="center">🚧 Projeto em andamento...</h4>
